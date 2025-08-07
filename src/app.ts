@@ -1,7 +1,6 @@
 import Fastify from 'fastify'
 
+import routes from './routes'
 export const app = Fastify()
 
-app.register('/health', async (request: any, reply: any) => {
-  return { status: 'ok' }
-})
+app.register(routes)

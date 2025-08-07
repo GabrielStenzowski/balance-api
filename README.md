@@ -8,6 +8,7 @@ Desafio técnico para a vaga de Software Engineer na EBANX.
 - TypeScript
 - Fastify
 - Dotenv
+- Zod
 
 ## 🚀 Como rodar o projeto
 
