@@ -1,2 +1,37 @@
-# balance-api
-Test Ebanx balance API
+# EBANX Balance API
+
+Desafio técnico para a vaga de Software Engineer na EBANX.
+
+## 🔧 Tecnologias
+
+- Node.js
+- TypeScript
+- Fastify
+- Dotenv
+
+## 🚀 Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/ebanx-balance-api.git
+cd ebanx-balance-api
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Configure o arquivo .env:
+
+```bash
+PORT=
+```
+
+4. Inicie o servidor:
+
+```bash
+npm run dev
+```
