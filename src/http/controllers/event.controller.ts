@@ -19,6 +19,6 @@ export class EventController {
       return reply.status(404).send('0')
     }
 
-    return reply.status(200).send(result)
+    return reply.status(201).send(result)
   }
 }

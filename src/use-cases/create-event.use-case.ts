@@ -39,7 +39,7 @@ export class CreateEventUseCase {
     if (type === 'transfer') {
       const originAccount = this.accountRepository.findById(origin!)
       if (!originAccount) {
-        return null // 404
+        return null
       }
       originAccount.balance -= amount
 
