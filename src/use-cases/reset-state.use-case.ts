@@ -1,9 +1,14 @@
-import { IAccountRepository } from "@/repository/I-account-repository";
+import { IAccountRepository } from '@/repository/I-account.repository'
+
+interface ResetStateResponse {
+  success: boolean
+  message: string
+}
 
 export class ResetStateUseCase {
-  constructor(private accountStore: IAccountRepository) {}
+  constructor(private accountRepository: IAccountRepository) {}
 
   execute() {
-    this.accountStore.reset()
+    this.accountRepository.reset()
   }
 }
