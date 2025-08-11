@@ -7,7 +7,7 @@ Desafio técnico para a vaga de Software Engineer na EBANX.
 - Node.js
 - TypeScript
 - Fastify
-- Dotenv
+- Dotenvg
 - Zod
 
 ## 🚀 Como rodar o projeto
@@ -35,4 +35,10 @@ PORT=
 
 ```bash
 npm run dev
+```
+
+5. Inicie o servidor ngrok:
+
+```bash
+npm run ngrok
 ```
